@@ -1,14 +1,14 @@
 header {
-  background-color: rgb(108, 29, 15);
+  background-color: rgb(75, 24, 47);
   position: sticky;
   z-index: 1000;
   top: 0;
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: Andale Mono, monospace;
   line-height: 1.6;
-  background-color: #f5f7fa;
+  background-color:rgb(255, 255, 255);
   color: #222;
 }
 
@@ -20,6 +20,7 @@ section {
   animation-name: myAnimation;
   animation-duration: 2s;
   position: relative;
+  font-family: Chalkduster, fantasy;
 }
 
 @keyframes myAnimation {
@@ -52,7 +53,7 @@ section {
   text-decoration: none;
 }
 .nav-links a {
-  background-color: rgb(85, 34, 25);
+  background-color: rgb(75, 24, 47);
   transition: 0.5s;
   border-radius: 5px;
   padding: 10px;
@@ -106,7 +107,6 @@ a{
 .image img {
   max-width: 400px;
   max-height: 380px;
-  border: solid rgb(45, 61, 25) 2px;
   border-radius: 50%;
   margin-left: 80px;
   object-fit: cover;
@@ -147,12 +147,14 @@ a{
 }
 .project-card {
   border-radius: 10px;
-  background-color: rgb(105, 38, 26);
+  background-color: rgb(75, 24, 47);
   color: #f5f7fa;
   transition: 0.4s;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
   padding: 40px;;
 }
+
+
 
 .project-card button {
   background-color: rgb(247, 246, 246);
@@ -166,7 +168,7 @@ a{
   background-color: rgb(255, 255, 255);
   color: black;
   button {
-    background-color: rgb(108, 29, 15);
+    background-color: rgb(75, 24, 47);
     color: white;
   }
 }
@@ -187,7 +189,7 @@ a{
 .card {
   text-align: center;
   border-radius: 10px;
-  background-color: rgb(108, 29, 15);
+  background-color: rgb(75, 24, 47);
   color: #f5f7fa;
   transition: 0.4s;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
@@ -200,13 +202,13 @@ a{
   background-color: rgb(255, 255, 255);
   color: black;
   button {
-    background-color: rgb(108, 29, 15);
+    background-color: rgb(75, 24, 47);
     color: white;
   }
 }
 
 footer {
-    background-color: #111827;
+    background-color:rgb(75, 24, 47);
     color: white;
 
     text-align: center;
@@ -216,7 +218,7 @@ footer {
 
 
 .btn {
-  background-color: rgb(108, 29, 15);
+  background-color:rgb(75, 24, 47);
   color: white;
   border-radius: 10em;
   font-size: 17px;
